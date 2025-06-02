@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="TodoApp">
+            <h1 style="color: rgb(110, 110, 255);">To-Do-app</h1>
+            <form class="inputArea">
+                <input type="text" id="taskInput" placeholder="Add a new Task">
+                <button type="submit" id="addTask"><i class="bi bi-plus-circle"></i></button>
+            </form>
+            <div class="todoCont">
+                <ul id="taskList">
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <script src="todo.js">
+    </script>
+</body>
+
+</html>
