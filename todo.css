@@ -156,3 +156,9 @@ span {
 .deleteButton:hover {
     transform: scale(1.1); 
 }
+
+#taskList li.completed span{
+    color: rgb(255, 0, 217);
+    text-decoration: line-through;
+
+}
